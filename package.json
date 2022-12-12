@@ -12,6 +12,9 @@
     "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "devDependencies": {
-    "shx": "^0.3.2"
+    "postcss": "^8.4.20",
+    "shx": "^0.3.2",
+    "tailwindcss": "^3.2.4",
+    "parcel": "^2.0.0"
   }
 }
