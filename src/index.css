@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(./fonts/SpaceGrotesk-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url(./fonts/SpaceMono-Regular.ttf);
+}
+
+:root {
+  --black: #000;
+  --sans: "Space Grotesk", sans-serif;
+  --mono: "Space Mono", monospace;
+  --orange: #FF8A00;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--sans);
+  background-color: var(--orange);
+  font-size: 1.3rem;
+}
+
+button {
+  font-family: var(--mono);
+}
